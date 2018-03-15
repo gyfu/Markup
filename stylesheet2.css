@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+	background-color: #347c83;
+	color: #343635;
+	font-family: 'IBM Plex Mono', monospace;
+
+}
+.efni {
+	width: 75%;
+	margin: 12.5%;
+	margin-top: 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 4fr 2fr 4fr 4fr 1fr;
+	background-color: #2e4874;
+}
+.banner {
+	padding: 3em;
+	background-color: #7eaba4;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.titill {
+	text-transform: uppercase;
+	color: #f4eade;
+	font-size: 5em;	
+	text-align: center;
+}
+.navigation {
+	padding-top: 2em;
+	background-color: #2e4874;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.navigation ul {
+	text-align: center;
+}
+.navigation li {
+	font-size: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	display: inline;
+	border-bottom: 1px solid #f4eade;
+}
+.navigation a{
+	text-decoration: none;
+	color: #f4eade;
+}
+.megin-texti {
+	border-top: 3px solid #f4eade;
+	padding: 1em;
+	color: #343635;
+	background-color: #7eaba4;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+.megin-texti h1, .right-texti h1, .left-texti h1{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+.left-texti {
+	border-top: 3px solid #f4eade;
+	padding: 1em;
+	color: #f4eade;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+.right-texti {
+	border-top: 3px solid #f4eade;
+	padding: 1em;
+	color: #f4eade;
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+.infobar {
+	padding-top: 0.5em;
+	color: #f4eade;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+.infobar ul{
+	text-align: center;
+}
+.infobar li {
+	font-size: 1.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	display: inline;
+	border-bottom: 1px solid #f4eade;
+}
+.infobar a{
+	text-decoration: none;
+	color: #f4eade;
+}
