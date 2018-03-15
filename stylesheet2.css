@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 body {
-	background-color: #347c83;
+	background-color: #094b4b;
 	color: #343635;
 	font-family: 'IBM Plex Mono', monospace;
 
@@ -20,11 +20,11 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 4fr 2fr 4fr 4fr 1fr;
-	background-color: #2e4874;
+	background-color: #e8c4be;
 }
 .banner {
 	padding: 3em;
-	background-color: #7eaba4;
+	background-color: #008284;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	grid-row-start: 1;
@@ -38,7 +38,7 @@ body {
 }
 .navigation {
 	padding-top: 2em;
-	background-color: #2e4874;
+	background-color: #ac8885;
 	grid-column-start: 1;
 	grid-column-end: 7;
 	grid-row-start: 2;
@@ -62,8 +62,8 @@ body {
 .megin-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #343635;
-	background-color: #7eaba4;
+	color: #f4eade;
+	background-color: #0dafae;
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row-start: 3;
@@ -76,7 +76,7 @@ body {
 .left-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 3;
@@ -85,7 +85,7 @@ body {
 .right-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 5;
 	grid-column-end: 6;
 	grid-row-start: 3;
@@ -93,7 +93,7 @@ body {
 }
 .infobar {
 	padding-top: 0.5em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	grid-row-start: 5;

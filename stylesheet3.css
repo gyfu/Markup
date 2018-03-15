@@ -8,8 +8,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 body {
-	background-color: #347c83;
+	background-color: #d0b783;
 	color: #343635;
+	font-family: 'Open Sans Condensed', sans-serif;
+
 
 }
 .efni {
@@ -19,11 +21,11 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 4fr 2fr 4fr 4fr 1fr;
-	background-color: #2e4874;
+	background-color: #e8c4be;
 }
 .banner {
 	padding: 3em;
-	background-color: #7eaba4;
+	background-color: #bcd2d0;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	grid-row-start: 1;
@@ -31,13 +33,14 @@ body {
 }
 .titill {
 	text-transform: uppercase;
-	color: #f4eade;
-	font-size: 4em;	
+	color:#f96161;
+	font-size: 5em;	
 	text-align: center;
+	font-family: 'Limelight', cursive;
 }
 .navigation {
 	padding-top: 2em;
-	background-color: #2e4874;
+	background-color: #ac8885;
 	grid-column-start: 1;
 	grid-column-end: 7;
 	grid-row-start: 2;
@@ -47,7 +50,7 @@ body {
 	text-align: center;
 }
 .navigation li {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-left: 2em;
 	margin-right: 2em;
 	text-align: center;
@@ -61,8 +64,8 @@ body {
 .megin-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #343635;
-	background-color: #7eaba4;
+	color: #f96161;
+	background-color: #bcd2d0;
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row-start: 3;
@@ -70,11 +73,12 @@ body {
 }
 .megin-texti h1, .right-texti h1, .left-texti h1{
 	text-transform: uppercase;
+	font-family: 'Limelight', cursive;
 }
 .left-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 3;
@@ -83,7 +87,7 @@ body {
 .right-texti {
 	border-top: 3px solid #f4eade;
 	padding: 1em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 5;
 	grid-column-end: 6;
 	grid-row-start: 3;
@@ -91,7 +95,7 @@ body {
 }
 .infobar {
 	padding-top: 0.5em;
-	color: #f4eade;
+	color: #343635;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	grid-row-start: 5;
@@ -101,7 +105,7 @@ body {
 	text-align: center;
 }
 .infobar li {
-	font-size: 1em;
+	font-size: 1.5em;
 	margin-left: 2em;
 	margin-right: 2em;
 	text-align: center;
@@ -112,12 +116,3 @@ body {
 	text-decoration: none;
 	color: #f4eade;
 }
-#Test
-
-
-
-
-
-
-
-
